@@ -1,5 +1,5 @@
 # tansliterated-fragments
-Data and Code from Paper "Transliterated Fragments of the Electronic Babylonian Literature Project"
+Data and Code from Paper "Transliterated Fragments of the Electronic Babylonian Literature Project (eBL, https://www.ebl.lmu.de/)"
 
 
 # Install
@@ -15,16 +15,22 @@ poetry install
 Run `example.py` file
 
 `get_first_batch_fragments` function does download 1000 Fragments from Api and saves them as json.
+
 `get_all_fragments` function does download all > 25000 Fragments from Api and saves them as json. May Take 20 -30 minutes.
+
 `get_some_fragments_and_parse` function does download 1000 Fragments from Api and parses the atf and saves them as json. 
 
 ATF is a string in our flavor of ASCII-Transliteration Format (uses unicode is a legacy name)
+
 ATF can be parsed using `parse_atf_lark` see in `example.py`.
+
+Our ATF Parser details in https://github.com/ElectronicBabylonianLiterature/ebl-api/blob/master/docs/ebl-atf.md
 
 # Tests
 Run tests (with pytest) in `ebl/test` folder
 
-# Example Fragment https://www.ebl.lmu.de/fragmentarium/1868%2C0523.2
+# Example Fragment 
+https://www.ebl.lmu.de/fragmentarium/1868%2C0523.2
 
 ```javascript
 
