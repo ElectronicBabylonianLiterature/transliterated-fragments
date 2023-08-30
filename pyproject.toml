@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "ebl-api"
+version = "0.1.0"
+description = ""
+authors = []
+
+[tool.poetry.dependencies]
+python = "^3.9.0"
+requests = "*"
+tqdm = "*"
+pydash = "*"
+attrs = "*"
+roman = "*"
+lark-parser = "0.11.2"
+marshmallow = "*"
+marshmallow-oneofschema = "*"
+
+
+
+[tool.poetry.dev-dependencies]
+pytest = "*"
+pytest-cov = "*"
+pytest-mockito = "*"
+flake8 = "*"
+pyhamcrest = "*"
+black = "*"
+autopep8 = "^1.6.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
