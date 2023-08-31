@@ -1,6 +1,5 @@
 import json
 from pathlib import Path
-from urllib.parse import urlencode
 
 import requests
 from tqdm import tqdm
@@ -15,11 +14,15 @@ def get_all_fragments(url):
     fragments = data["fragments"]
     limit = len(fragments)
     total_count = data["totalCount"]
-    for skip in tqdm(range(limit + 1, total_count, limit)):
-        url_string = url(skip)
-        resp = requests.get(url_string)
-        data = resp.json()
-        fragments.extend(data["fragments"])
+    try:
+        for skip in tqdm(range(limit + 1, total_count, limit)):
+            url_string = url(skip)
+            resp = requests.get(url_string)
+            data = resp.json()
+            fragments.extend(data["fragments"])
+    except Exception as e:
+        print(e)
+        print(f"Failed collected {len(fragments)} fragments with skip {skip}. Restart with skip={skip}")
     return fragments
 
 
