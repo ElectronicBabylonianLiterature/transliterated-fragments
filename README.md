@@ -1,5 +1,6 @@
 # tansliterated-fragments
-Data and Code from Paper "Transliterated Fragments of the Electronic Babylonian Literature Project (eBL, https://www.ebl.lmu.de/)"
+Data and Code from Paper: <br>
+Transliterated Fragments of the Electronic Babylonian Literature Project (eBL, https://www.ebl.lmu.de/)
 
 
 # Install
