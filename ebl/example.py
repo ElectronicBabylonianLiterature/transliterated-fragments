@@ -47,7 +47,7 @@ def parse_fragments(fragments):
 
 
 if __name__ == "__main__":
-    URL = "http://0.0.0.0:8000/fragments/retrieve-all"
+    URL = "https://www.ebl.lmu.de/api/fragments/retrieve-all"
     url = lambda skip: f"{URL}?skip={skip}"
     #fragments = get_all_fragments(url)
     fragments = get_first_batch_fragments(url)
