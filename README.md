@@ -1,5 +1,5 @@
 # Transliterated Fragments from [eBL](https://www.ebl.lmu.de/)
-Data and Code from Paper: <br>
+Code to fetch and parse Data from Paper: <br>
 Transliterated Fragments of the Electronic Babylonian Literature Project ([eBL](https://www.ebl.lmu.de/))
 
 
