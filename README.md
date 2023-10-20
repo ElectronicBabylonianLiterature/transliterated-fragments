@@ -4,7 +4,7 @@ Transliterated Fragments of the Electronic Babylonian Literature Project ([eBL](
 Zenodo: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10018951.svg)](https://doi.org/10.5281/zenodo.10018951)  <br>
 For a details and overview of contributors please refer to paper.  <br>
 <br>
-This repository contains code to download all publicly available transliterations using our public api (specified in example.py) and parse it using our [atf-parser](https://github.com/ElectronicBabylonianLiterature/generic-documentation/wiki/eBL-ATF-and-other-ATF-flavors). The atf parser has been manually extracted from our [api](https://github.com/ElectronicBabylonianLiterature/ebl-api). It has to be kept up to date manually, please open an issue in case there are any problems.
+This repository contains code to download all publicly available transliterations using our public api (specified in `example.py`) and parse it using our [atf-parser](https://github.com/ElectronicBabylonianLiterature/generic-documentation/wiki/eBL-ATF-and-other-ATF-flavors). The atf parser has been manually extracted from our [api](https://github.com/ElectronicBabylonianLiterature/ebl-api). It has to be kept up to date manually, please open an issue in case there are any problems.
 The atf-parser that is used in [production](https://www.ebl.lmu.de/)  verifies all signs using our sign database. The parser in this repository is not checking against a sign list. It is just validating the syntax and parsing the atf-string.
 
 
