@@ -1,6 +1,8 @@
 # Transliterated Fragments from [eBL](https://www.ebl.lmu.de/)
 Code to fetch and parse Data from Paper: <br>
 Transliterated Fragments of the Electronic Babylonian Literature Project ([eBL](https://www.ebl.lmu.de/))
+Zenodo: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10018951.svg)](https://doi.org/10.5281/zenodo.10018951)
+For a details and overview of contributors please read paper.
 
 
 # Install
